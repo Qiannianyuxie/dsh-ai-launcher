@@ -1,0 +1,8 @@
+# dsh-ai-launcher bundle patch.
+#
+# One row for this package: the Host half is a no-op and the browser half
+# declares the right-Sidebar tab type through package.json's `dsh.client`.
+- insert:
+    - id: ai-launcher
+      name: 'dsh-ai-launcher'
+      config: {}
